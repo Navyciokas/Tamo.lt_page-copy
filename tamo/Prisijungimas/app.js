@@ -25,5 +25,5 @@ function chechInfo(){
     i = 0
     found = 0
 }
-
+// --- Navyciok 2023 ---//
 
