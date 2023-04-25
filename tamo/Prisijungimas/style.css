@@ -1,0 +1,97 @@
+
+*{  
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+}
+body{
+    height: 100%;
+    max-height: max-content;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+.login{     /*Right block*/
+    width: 375px;
+    color:#976868;
+    margin-top: 0px;
+    float: right;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    letter-spacing: 0.2px;
+    right: 0;
+}
+.form{      /*Right's block inside*/
+    vertical-align: middle;
+    width: 80%;
+    height: 40%;
+    margin:auto;
+}
+.left_block_img{   /*Left block picture*/
+    vertical-align: middle;
+    max-width: 100%;
+}
+.left_block{   /*Left block*/
+    margin-right: 380px;
+    max-width: 1600px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: black;
+    position: relative;
+}
+.tamo_icon{     /*TAMO picture inside "Prisijungimas"*/
+    width: 60%;
+}
+input{      /*All inputs*/
+    width: 100%;
+    padding: 4px;
+    border-radius: 0px;
+    border: solid 1px #85B4CD;
+}
+input:hover{    /*All inputs hover*/
+    background-color: #E8F0FE;
+}
+input:focus{    /*All inputs focus - disables outline*/
+    outline: none;
+}
+button{     /*Submit button*/
+    width: 100%;
+    background-color: #84CEC5;
+    padding: 4px;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+button:hover{       /*Submit button hover*/
+    background-color: #95D7D0;
+}
+.link{      /*Bigger links*/
+    color: #0099CC;
+    text-decoration: none;
+    font-size: 14px;
+}
+.link2{     /*Smaller links*/
+    color: #0099CC;
+    text-decoration: none;
+    font-size: 12.5px;
+}
+.link:hover{    /*Bigger links hover*/
+    text-decoration: underline;
+}
+.link2:hover{   /*Smaller links hover*/
+    text-decoration: underline;
+}
+.p_link{    /*Link's paragraph*/
+    text-align: center;
+}
+.span1{     /*Text in form*/
+    text-decoration: none; 
+    font-size: 14px;
+}
